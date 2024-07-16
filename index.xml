@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!doctype employee[
+<!element employee(firstname,familname,division+)>
+<!Attlist employee (employee id _ID#required currmanager idref #implied)>
+<!element firstname(#required)>
+<!element familyname(#required)>
+<!element division(empty)>
+<!Attlist division divname(HR/sales/marketing)"ales" starteddate CDATA #required>
+]>
